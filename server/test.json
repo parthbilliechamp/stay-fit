@@ -1,0 +1,115 @@
+{
+  "user_email": "a@c.com",
+  "user_daily_meals": [
+    {
+      "log_date": "23 July 2023",
+      "meals_list": [
+        {
+          "meal_type": "breakfast",
+          "food_items": [
+            {
+              "_id": {
+                "$oid": "64be8bf6e9df4030f8d0dff1"
+              },
+              "food": "Chicken Breast",
+              "protein": 31,
+              "carbohydrates": 0,
+              "fat": 3.6,
+              "calories": 165
+            },
+            {
+              "_id": {
+                "$oid": "64be8bf6e9df4030f8d0dff1"
+              },
+              "food": "Pork",
+              "protein": 31,
+              "carbohydrates": 0,
+              "fat": 3.6,
+              "calories": 165
+            }
+          ]
+        },
+        {
+          "meal_type": "lunch",
+          "food_items": [
+            {
+              "_id": {
+                "$oid": "64be8bf6e9df4030f8d0dff1"
+              },
+              "food": "Chicken Breast",
+              "protein": 31,
+              "carbohydrates": 0,
+              "fat": 3.6,
+              "calories": 165
+            },
+            {
+              "_id": {
+                "$oid": "64be8bf6e9df4030f8d0dff1"
+              },
+              "food": "Pork",
+              "protein": 31,
+              "carbohydrates": 0,
+              "fat": 3.6,
+              "calories": 165
+            }
+          ]
+        }
+      ]
+    },
+    {
+        "log_date": "24 July 2023",
+        "meals_list": [
+          {
+            "meal_type": "breakfast",
+            "food_items": [
+              {
+                "_id": {
+                  "$oid": "64be8bf6e9df4030f8d0dff1"
+                },
+                "food": "Chicken Breast",
+                "protein": 31,
+                "carbohydrates": 0,
+                "fat": 3.6,
+                "calories": 165
+              },
+              {
+                "_id": {
+                  "$oid": "64be8bf6e9df4030f8d0dff1"
+                },
+                "food": "Pork",
+                "protein": 31,
+                "carbohydrates": 0,
+                "fat": 3.6,
+                "calories": 165
+              }
+            ]
+          },
+          {
+            "meal_type": "lunch",
+            "food_items": [
+              {
+                "_id": {
+                  "$oid": "64be8bf6e9df4030f8d0dff1"
+                },
+                "food": "Chicken Breast",
+                "protein": 31,
+                "carbohydrates": 0,
+                "fat": 3.6,
+                "calories": 165
+              },
+              {
+                "_id": {
+                  "$oid": "64be8bf6e9df4030f8d0dff1"
+                },
+                "food": "Pork",
+                "protein": 31,
+                "carbohydrates": 0,
+                "fat": 3.6,
+                "calories": 165
+              }
+            ]
+          }
+        ]
+      }
+  ]
+}

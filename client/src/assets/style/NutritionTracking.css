@@ -1,0 +1,51 @@
+.nutrition-tracking-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .food-database-container,
+  .selected-food-items-container {
+    margin-bottom: 20px;
+  }
+  
+  .food-database-container h3,
+  .selected-food-items-container h3 {
+    margin-bottom: 10px;
+  }
+  
+  .food-database-container select,
+  .food-database-container button,
+  .selected-food-items-container ul {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  .selected-food-items-container ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .selected-food-items-container li {
+    border-bottom: 1px solid #ddd;
+    padding: 5px 0;
+  }
+  
+  .add-meal-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .add-meal-button:hover {
+    background-color: #0056b3;
+  }  

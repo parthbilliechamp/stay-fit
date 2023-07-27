@@ -1,0 +1,34 @@
+/* MacroDashboard.css */
+
+.macro-dashboard-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .date-picker {
+    margin-bottom: 20px;
+  }
+  
+  .chart-container {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .macros-info {
+    width: 100%;
+    max-width: 300px;
+    margin: 20px auto;
+    padding: 10px;
+  }
+  
+  .macros-info ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .macros-info li {
+    margin-bottom: 8px;
+  }  
