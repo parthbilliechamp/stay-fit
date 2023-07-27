@@ -26,7 +26,7 @@ const MacroDashboard = () => {
   useEffect(() => {
     const fetchDailyMacrosCount = () => {
       const date = format(addDays(new Date(selectedDate), 1), "dd MMMM yyyy");
-      const backendURL = `http://localhost:3001/get-daily-macros-count/user/${email}/${date}`;
+      const backendURL = `${process.env.REACT_APP_BACKEND_URL}/get-daily-macros-count/user/${email}/${date}`;
 
       fetch(backendURL)
         .then((response) => response.json())

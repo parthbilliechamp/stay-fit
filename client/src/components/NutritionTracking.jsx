@@ -20,7 +20,7 @@ const NutritionTracking = () => {
   const email = userStore((state) => state.email);
 
   useEffect(() => {
-    fetch("http://localhost:3001/food-database")
+    fetch(`${process.env.REACT_APP_BACKEND_URL}/food-database`)
       .then((response) => response.json())
       .then((data) => {
         setFoodItems(data.foodItems);
@@ -54,7 +54,7 @@ const NutritionTracking = () => {
       food_items: selectedFoodItems,
     };
 
-    fetch("http://localhost:3001/user/add-meal", {
+    fetch(`${process.env.REACT_APP_BACKEND_URL}/user/add-meal`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
